@@ -5,3 +5,51 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header section footer{
+    display: block;
+}
+
+body {
+    width: 100%;
+    display:-webkit-box;
+    -webkit-box-pack: center;
+}
+#enchilada {
+    max-width: 1000px;
+    margin: 20px 0px;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+
+}
+#first-header {
+    background:green;
+    border: 3px solid black;
+    padding: 25px;
+
+}
+#the-nav {
+    background: black;
+    color: white;
+    border:yellow;
+
+}
+#the-nav {
+    display:inline-block;
+}
+@media (min-width: 767px) and (max-width: 961px) {
+    li {
+        color: red;
+    }
+}
+
+@media (min-width: 1201px) {
+    li {
+        color: blueviolet;
+    }
+}
